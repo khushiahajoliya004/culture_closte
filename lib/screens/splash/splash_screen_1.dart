@@ -81,11 +81,11 @@ class _SplashScreen1State extends State<SplashScreen1>
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset(
-                    'assets/images/logo_full.png',
-                    width: 220,
+                    'assets/images/logo_icon.png',
+                    width: 260,
                     errorBuilder: (context, error, stackTrace) => Image.asset(
                       'assets/images/logo.png',
-                      width: 200,
+                      width: 220,
                       errorBuilder: (ctx, e, s) => _buildTextLogo(),
                     ),
                   ),
