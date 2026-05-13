@@ -17,27 +17,12 @@ class SplashScreen4 extends StatelessWidget {
         child: SafeArea(
           child: Column(
             children: [
-              // Screen label
-              Padding(
-                padding: const EdgeInsets.only(top: 12, left: 20),
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    'Flash Screen',
-                    style: GoogleFonts.lora(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w400,
-                      color: AppColors.textDark,
-                    ),
-                  ),
-                ),
-              ),
               // Phone mockup composite from Figma
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 30),
                   child: Image.asset(
-                    'assets/images/onboard_3_phone.png',
+                    'assets/images/onboard_4_phone_group.png',
                     fit: BoxFit.contain,
                     errorBuilder: (context, error, stackTrace) => _buildPlaceholder(),
                   ),
